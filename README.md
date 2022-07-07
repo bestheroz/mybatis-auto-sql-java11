@@ -61,6 +61,12 @@ private static final String VARIABLE_NAME_CREATED="created"; // no use "-"
 private static final String VARIABLE_NAME_UPDATED_BY="updatedBy"; // no use "-"
 private static final String VARIABLE_NAME_UPDATED="updated"; // no use "-"
 private static final String SYSDATE="NOW()";
+
+    추가로 MYSQL 일 경우 아래 주석을 풀어주세요.
+// FIXME: MYSQL 사용시 주석을 풀어 위에 코드를 대체해주세요.
+
+    인증정보를 통해 user id 를 가져올 수 있도록 수정하시면 됩니다.
+// FIXME: getUserID()
 ```
 
 #### 3. DB Table 과 동일한 스펙을 가진 Entity 생성
